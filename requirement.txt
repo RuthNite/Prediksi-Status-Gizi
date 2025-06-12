@@ -1,0 +1,8 @@
+streamlit
+matplotlib
+lightgbm
+pickle
+numpy
+pandas
+scikit-learn
+base64
