@@ -40,12 +40,12 @@ with open('lgbm_terlatih_80.pkl', 'rb') as f:
 
 # Tabel Ideal Gizi berdasarkan jenis kelamin dan usia 
 data_laki = pd.DataFrame({
-    'Kelompok Usia (bulan)': [0-12, 13-24, 25-36, 37-48, 49-60],
+    'Kelompok Usia (bulan)': ["0-12", "13-24", "25-36", "37-48", "49-60"],
     'Berat Ideal (kg)': [7.9, 10.9, 12.9, 14.8, 16.7],
     'Tinggi Ideal (cm)': [72.5, 81.7, 89.5, 96.3, 102.7]
 })
 data_perempuan = pd.DataFrame({
-    'Kelompok Usia (bulan)': [0-12, 13-24, 25-36, 37-48, 49-60],
+    'Kelompok Usia (bulan)': ["0-12", "13-24", "25-36", "37-48", "49-60"],
     'Berat Ideal (kg)': [7.3, 10.2, 12.4, 14.3, 16.1],
     'Tinggi Ideal (cm)': [70.5, 80.0, 87.8, 94.5, 100.7]
 })
