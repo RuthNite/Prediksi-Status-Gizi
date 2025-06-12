@@ -1,8 +1,6 @@
 streamlit
-matplotlib
 lightgbm
-pickle
-numpy
 pandas
+numpy
 scikit-learn
-base64
+matplotlib
