@@ -4,7 +4,7 @@ st.set_page_config(page_title="Prediksi Gizi Balita", layout="centered")
 import base64
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
+import matplotlib as plt
 import lightgbm as lgb
 import pickle
 from sklearn.linear_model import LinearRegression
