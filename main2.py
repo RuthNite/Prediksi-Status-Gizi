@@ -38,16 +38,16 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 with open('lgbm_terlatih_80.pkl', 'rb') as f:
     model = pickle.load(f)
 
-# Tabel Ideal Gizi berdasarkan jenis kelamin dan usia (contoh dummy)
+# Tabel Ideal Gizi berdasarkan jenis kelamin dan usia 
 data_laki = pd.DataFrame({
-    'Usia (bulan)': [4, 5, 6, 7, 8],
-    'Berat Ideal (kg)': [6.4, 6.9, 7.3, 7.6, 7.9],
-    'Tinggi Ideal (cm)': [61.2, 63.0, 64.8, 66.2, 67.6]
+    'Kelompok Usia (bulan)': [0-12, 13-24, 25-36, 37-48, 49-60],
+    'Berat Ideal (kg)': [7.9, 10.9, 12.9, 14.8, 16.7],
+    'Tinggi Ideal (cm)': [72.5, 81.7, 89.5, 96.3, 102.7]
 })
 data_perempuan = pd.DataFrame({
-    'Usia (bulan)': [4, 5, 6, 7, 8],
-    'Berat Ideal (kg)': [5.8, 6.3, 6.7, 7.0, 7.3],
-    'Tinggi Ideal (cm)': [59.4, 61.1, 62.8, 64.3, 65.7]
+    'Kelompok Usia (bulan)': [0-12, 13-24, 25-36, 37-48, 49-60],
+    'Berat Ideal (kg)': [7.3, 10.2, 12.4, 14.3, 16.1],
+    'Tinggi Ideal (cm)': [70.5, 80.0, 87.8, 94.5, 100.7]
 })
 
 # Judul aplikasi
