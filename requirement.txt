@@ -1,5 +1,5 @@
 streamlit
-matplotlib
+matplotlib.pyplot
 lightgbm
 pickle
 numpy
